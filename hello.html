@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>hello</title>
+<!--    rel是文件与网页的关系  type是文件类型  href是地址-->
+    <link rel="stylesheet" type="text/css" href="1.css">
+<!--type是文件类型 src是地址-->
+    <script type="application/javascript" src="js.js"></script>
+
+</head>
+<body>
+<div id="1">
+    这里是yian的主页
+</div>
+<form action="http://localhost:8080" method="get">
+    <table>
+        <tr>
+            <th >
+                <div>用户表</div>
+            </th>
+        </tr>
+        <tr>
+            <td>用户名称:</td>
+            <td>
+                <input type="text" name="name" value="默认值">
+            </td>
+        </tr>
+        <tr>
+            <td >用户密码:</td>
+            <td>
+                <input type="password" name="password" >
+            </td>
+        </tr>
+        <tr>
+            <td>性别:</td>
+            <td>
+                <input type="radio" name="gender" checked="checked">男<input type="radio" name="gender">女
+            </td>
+        </tr>
+        <tr>
+            <td>兴趣爱好:</td>
+            <td>
+                <input type="checkbox" name="hoby" value="默认值">Java<input type="checkbox" name="hoby" value="默认值">C++
+            </td>
+        </tr>
+        <tr>
+            <td>国籍:</td>
+            <td>
+                <select name="nationality">
+                    <option>中国</option>
+                    <option>美国</option>
+                </select>
+            </td>
+        </tr>
+
+    </table>
+    <input type="submit" name="submit">
+    <input type="reset">
+</form>
+</body>
+</html>

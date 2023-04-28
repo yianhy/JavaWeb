@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--xml的声明-->
+<books>
+    <book sn="1345433444">
+        <name>时间简史</name>
+        <price>44</price>
+        <author>李白</author>
+    </book>
+    <book sn="1345435444">
+        <name>葵花宝典</name>
+        <price>9.9</price>
+        <author>班长</author>
+    </book>
+</books>
